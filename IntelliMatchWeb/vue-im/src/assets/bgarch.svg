@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bgarch</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bgarch" fill="#1642DF" fill-rule="nonzero">
+            <path d="M0,0 L50,0 L100,0 L100,91.0616062 C83.3333333,96.3722872 66.6666667,99.0276278 50,99.0276278 C33.3333333,99.0276278 16.6666667,96.3722872 0,91.0616062 L0,0 Z" id="bg-arch"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+{
+  "name": "vue-im",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cornflourblue/vue-im.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "vue": "^2.5.16",
+    "vue-circle-counter": "^3.0.0",
+    "vue-el-element": "^1.12.8",
+    "vue-modal-dialogs": "^3.0.0",
+    "vue-router": "^3.0.1",
+    "vue-simple-progress": "^1.1.1",
+    "vue-upload-component": "^2.8.22",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^3.4.2",
+    "el-input": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.32.7",
+    "sass-loader": "7.3.1",
+    "vue-loader": "^14.2.3",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.15.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
