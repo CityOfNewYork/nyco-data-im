@@ -1,0 +1,31 @@
+Field Name	Max Size	Validation Rules	Required Fields	Column Number	Regular Expression
+FIRST_NAME	25	Letter (space is allowed)	X	1	"^[A-Za-z\\s]{1,25}$"
+MID_NAME	25	Letter (space is allowed)		2	"^[A-Za-z\\s]{1,25}$"
+LAST_NAME	25	Letter Only	X	3	"^[A-Za-z]{1,25}$"
+SSN	9	Number only		4	^[0-9]{9}?$
+SRC_SYS_PERS_NUM	20	Alphnumeric (dash is allowed)	X	5	"^[a-zA-Z0-9-]{1,20}$"
+HEAD_OF_HOUSE	1	"""Y"" or ""N"" only"		6	^(?:Y|N)$
+SRC_SYS_ACRNYM	12	"Source System Acronym (e.g., HRA_WMS)"	X	7	"^[A-Z_]{1,12}$"
+WMS_CIN	50	Alphnumeric		8	"^[a-zA-Z0-9]{1,50}$"
+DOB	8	Number only (format: YYYYMMDD)		9	^\\d{4}\\d{2}\\d{2}$
+HOME_ADDR_1	50	"Alphanumeric (dash, space, dot are allowed)"		10	"^[a-zA-Z0-9-.\\s]{1,50}$"
+HOME_ADDR_2	50	"Alphanumeric (#, space, dot  are allowed)"		11	"^[a-zA-Z0-9#.\\s]{1,50}$"
+HOME_CITY	50	Letter (space is allowed)		12	"^[a-zA-Z\\s]{1,50}$"
+HOME_STATE	2	"Valid State abbreviation only (e.g., NY)"		13	^(?:(A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|O[HKR]|P[AR]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY]))$
+HOME_ZIP	5	Number only		14	^[0-9]{5}?$
+HOME_ZIP_4	4	Number only		15	^[0-9]{4}?$
+MAIL_ADDR_1	50	"Alphanumeric (dash, space, dot are allowed)"		16	"^[a-zA-Z0-9-.\\s]{1,50}$"
+MAIL_ADDR_2	50	"Alphanumeric (#, space, dot  are allowed)"		17	"^[a-zA-Z0-9#.\\s]{1,50}$"
+MAIL_CITY	50	Letter (space is allowed)		18	"^[A-Za-z\\s]{1,50}$"
+MAIL_STATE	2	"Valid State abbreviation only (e.g., NY)"		19	^(?:(A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|O[HKR]|P[AR]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY]))$
+MAIL_ZIP	5	Number only		20	^[0-9]{5}?$
+MAIL_ZIP_4	4	Number only		21	^[0-9]{4}?$
+GENDER	1	"""M"" or ""F"" or ""O"" or ""U"" only (1 char)"		22	^(?:M|F|O|U)$
+HOME_PH	10	Number only		23	^[0-9]{10}?$
+WORK_PH	10	Number only		24	^[0-9]{10}?$
+MOBILE_PH	10	Number only		25	^[0-9]{10}?$
+EMAIL_ADDR	80	Email Address 		26	^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$
+DRIVER_LIC_NUM	50	Alphnumeric		27	"^[a-zA-Z0-9]{1,50}$"
+LAST_UPDATED	14	Number only (format: YYYYMMDDHHMMSS)	X	28	^\\d{4}\\d{2}\\d{2}\\d{2}\\d{2}\\d{2}$
+ALERT	1	"""Y"" or ""N"" only (1 char)"		29	^(?:Y|N)$
+TARGET_ACTION_TYPE	1	"""I"" or ""U"" or ""D"" only (1 char)"	X	30	^(?:I|U|D)$
