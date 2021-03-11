@@ -1,5 +1,0 @@
-Have data that you want to analyze in the research platform? 
-Use the IntelliMatch service to move your text, Excel or csv file into a table in your personal schema.
-Just select the file and load. It's that easy. But wait, that's not all! Use IntelliMatch to automate 
-record matching projects or link against the NYCO workforce data sets. No file is too large and no data 
-is too data!
